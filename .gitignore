@@ -1,9 +1,25 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio
+.vscode/
+*.code-workspace
 
-/Desafio01_FundamentosC#/bin/Debug/net8.0
-/Desafio01_FundamentosC#/obj
-/.vs
-/Exercicio_02/bin/Debug/net8.0
-/Exercicio_02/obj
+# Visual Studio 2019+
+.vs/
+
+# Arquivos de build e pasta de saída
+[Bb]in/
+[Oo]bj/
+
+# Build Logs
+*.log
+
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+
+# Arquivos de cache do Visual Studio
+*.csproj.user
+*.pidb
+*.sln.docstates
+
+# Dependências do NuGet
+packages/
