@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Desafio01_FundamentosC#/bin/Debug/net8.0
+/Desafio01_FundamentosC#/obj
+/.vs
